@@ -28,15 +28,15 @@ export const Navbar = () => {
         <nav className='flex justify-between items-center'>
             <div className='left_side'>
               <Link href="/" >
-              <div style={{ boxShadow: '10px 10px 5px rgba(0, 0, 0, 0.1)',width:'125px' }} className='rounded-lg'>
+            
     <img src="/tech_logo.jpg" className='w-[120px] h-[55px] rounded-lg hover:w-[130px] hover:h-[60px]'style={{transition: '0.4s ease-in-out'}} />
-</div>
+
               </Link>
             </div>
             <div className='right_side flex gap-4'>
             {links.map((item,index)=>(
                 <>
-                <Link href={item.link} key={index} className={`pl-3 pr-3 pt-1 pb-1 text-black font-600 hover:bg-[#3498db] rounded-lg hover:text-white ${pathname===item.link?'bg-[#3498db] text-white':''}`}style={{transition: '0.4s ease-in-out'}}>{item.title}</Link>
+                <Link href={item.link} key={index} className={`pl-3 pr-3 pt-1 pb-1 text-black font-600  rounded-lg  ${pathname===item.link?'bg-[#3498db] text-white':''}`}style={{transition: '0.4s ease-in-out'}}>{item.title}</Link>
 
                 </>
             ))
