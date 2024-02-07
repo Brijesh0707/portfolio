@@ -65,7 +65,7 @@ export const Navbar = () => {
       </div>
          {navbar &&<motion.div  initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ delay: 0.1, duration: 0.1}}  className='w-screen h-screen fixed flex flex-col items-center justify-center   gap-4 top-0 left-0 right-0 bottom-0 bg-black z-66'>
+              transition={{ delay: 0.1, duration: 0.1}} exit={{ x: 100, opacity: 0 }}  className='w-screen h-screen fixed flex flex-col items-center justify-center   gap-4 top-0 left-0 right-0 bottom-0 bg-black z-66'>
          {links.map((item,index)=>(
           <>
             <Link href={item.link} key={index} className='text-white text-[25px]'>{item.title}</Link>
