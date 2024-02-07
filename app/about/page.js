@@ -42,7 +42,7 @@ const Page = () => {
               <br />
               <div className='flex flex-wrap gap-4'>
                 {skills?.map((item, index) => (
-                  <motion.button key={index} initial={{ x: -100, opacity: 0 }} animate={isVisible ? { x: 0, opacity: 1 } : { x: -100, opacity: 0 }} transition={{ delay: index * 0.1, duration: 0.5 }} className='pl-4 pr-4 hover:bg-black hover:text-white pt-2 pb-2 rounded-lg border-black border-[1px] text-black font-500' style={{ transition: '0.5s ease-in-out' }}>{item}</motion.button>
+                  <motion.button key={index} className='pl-4 pr-4 hover:bg-black hover:text-white pt-2 pb-2 rounded-lg border-black border-[1px] text-black font-500' style={{ transition: '0.5s ease-in-out' }}>{item}</motion.button>
                 ))}
               </div>
             </div>
