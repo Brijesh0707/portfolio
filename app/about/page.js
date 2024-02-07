@@ -6,10 +6,6 @@ import { motion, useAnimation, useScroll, useTransform } from 'framer-motion';
 const Page = () => {
   const [isVisible, setIsVisible] = useState(false);
   const controls = useAnimation();
-  const mainContainer = useRef()
-  const {scrollYProgress} = useScroll({container:mainContainer})
-
-  const animate = useTransform(scrollYProgress,[0,1],[0,360])
   useEffect(() => {
     const handleScroll = () => {
       const windowHeight = window.innerHeight;
@@ -36,7 +32,7 @@ const Page = () => {
 
   return (
     <>
-      <section className='w-[100%]  mt-3 pb-[100px] pl-5 pr-5 h-[100%] md:h-[100%] flex justify-center items-center' ref={mainContainer}>
+      <section className='w-[100%]  mt-3 pb-[100px] pl-5 pr-5 h-[100%] md:h-[100%] flex justify-center items-center'>
         <main className='flex justify-between md:flex-col w-[100%]  h-full static'>
           <div className='left_side w-[45%] md:flex-col md:w-[100%]'>
             <div className='about'>
