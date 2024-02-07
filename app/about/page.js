@@ -1,11 +1,12 @@
 "use client"
-
-import React, { useEffect, useRef, useState } from 'react';
-import { motion, useAnimation, useScroll, useTransform } from 'framer-motion';
+import React, { useEffect, useState } from 'react';
+import { motion, useAnimation } from 'framer-motion';
+import Image from 'next/image';
 
 const Page = () => {
   const [isVisible, setIsVisible] = useState(false);
   const controls = useAnimation();
+
   useEffect(() => {
     const handleScroll = () => {
       const windowHeight = window.innerHeight;
@@ -32,8 +33,8 @@ const Page = () => {
 
   return (
     <>
-      <section className='w-[100%]  mt-3 pb-[100px] pl-5 pr-5 h-[100%] md:h-[100%] flex justify-center items-center'>
-        <main className='flex justify-between md:flex-col w-[100%]  h-full static'>
+      <section className='w-[100%] mt-3 pb-[100px] pl-5 pr-5 h-[100%] md:h-[100%] flex justify-center items-center'>
+        <main className='flex justify-between md:flex-col w-[100%] h-full static'>
           <div className='left_side w-[45%] md:flex-col md:w-[100%]'>
             <div className='about'>
               <motion.h1 initial={{ x: -100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: 0.3, duration: 0.3 }} className='text-center text-[30px] text-[#2f2f2f] font-600 font-mono'>About Us</motion.h1>
@@ -53,12 +54,11 @@ const Page = () => {
             </div>
           </div>
           <div className='right_side w-[55%] md:hidden flex justify-center sticky top-[200px]  h-[600px]'>
-          <div className='mt-10'>
-          <motion.img  initial={{ y: 100, opacity: 0 }}
-  animate={{ y: 0, opacity: 1 }}
-  whileHover={{ scale: 1.1 }} 
-  transition={{ delay: 0.9, duration: 0.9 }} src='/animate.png' className='animate w-[300px] h-[300px] '/>
-          </div>
+            <div className='mt-10'>
+              <motion.div initial={{ y: 100, opacity: 0 }} animate={{ y: 0, opacity: 1 }} whileHover={{ scale: 1.1 }} transition={{ delay: 0.9, duration: 0.9 }} className='animate'>
+                <Image src='/animate.png' alt='Animation Image' width={300} height={300} />
+              </motion.div>
+            </div>
           </div>
         </main>
       </section>
