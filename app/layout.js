@@ -6,7 +6,7 @@ import Provider from "@/components/Provider";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="w-[100%] h-[100%] bg-gradient-to-b from-gray-200 to-[#a4ceeb]">
+      <body className="">
        <Provider>
         {children}
        </Provider>
