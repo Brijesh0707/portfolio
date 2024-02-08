@@ -1,12 +1,13 @@
 "use client"
 
 import { motion } from "framer-motion";
+import Head from "next/head";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <section className="w-[100%] h-[100%] md:h-screen mt-2 pl-5 pr-5">
+      <section className="w-[100%] h-[100%] conatiner_padding md:h-screen mt-2 pl-5 pr-5">
         <main className="flex justify-between items-center md:flex-col-reverse md:mt-[100px]">
           <div className="left_side">
       

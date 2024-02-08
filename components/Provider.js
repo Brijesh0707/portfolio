@@ -33,10 +33,10 @@ const Provider = ({children}) => {
    animate={{height:"0vh",transition:{delay:0.5}}}
 
   /> */}
-      <div className="navbar h-22">
+      <div className="navbar h-22 container_maxWidth_1440">
         <Navbar/>
       </div>
-      <div className="w-[100%] h-[100%]">
+      <div className="w-[100%] h-[100%] container_maxWidth_1440">
       {children}
       </div>
       </div>
