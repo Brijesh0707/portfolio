@@ -1,24 +1,28 @@
 "use client"
 
 
-import React, { useEffect } from 'react'
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Link from 'next/link';
+import { useEffect } from 'react';
 
-const useAOSInit = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 700,
-      once: false,
-    });
-  }, []);
-}
 
 
 const page = () => {
  
-   useAOSInit()
+ 
+  useEffect(()=>{
+    const initial1 = ()=>{
+      AOS.init({
+        duration: 700, 
+        once: false, 
+      });
+    }
+
+    initial1()
+  },[])
+  
   return (
 
    <>
