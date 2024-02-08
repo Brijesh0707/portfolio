@@ -6,15 +6,19 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Link from 'next/link';
 
+const useAOSInit = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 700,
+      once: false,
+    });
+  }, []);
+}
+
 
 const page = () => {
  
-  useEffect(() => {
-    AOS.init({
-      duration: 700, 
-      once: false, 
-    });
-  }, []);
+   useAOSInit()
   return (
 
    <>
