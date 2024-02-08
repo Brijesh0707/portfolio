@@ -31,7 +31,7 @@ export const Navbar = () => {
             <div className='left_side'>
               <Link href="/" >
             
-    <img src="/tech_logo.jpg" className='w-[120px] h-[55px] rounded-lg ' />
+    <img src="/bg_tech_logo.png" className='w-[120px] h-[55px] rounded-lg ' />
 
               </Link>
             </div>
@@ -52,7 +52,9 @@ export const Navbar = () => {
       <nav>
       <div className='wrapper flex relative justify-between items-center'>
         <div className='left pl-5 pt-3'>
-        <img src="/tech_logo.jpg" className='w-[90px] h-[45px] rounded-lg ' />
+        <Link href="/">
+        <img src="/bg_tech_logo.png" className='w-[90px] h-[45px] rounded-lg ' />
+        </Link>
         </div>
         <div className='menu_button right absolute z-[70] right-4' onClick={() => setNavbar(!navbar)}>
            {navbar===true?<><p className='text-[30px] text-white'>x</p></>:<> <div className={`w-[30px] h-[2px] mt-1 bg-black `}></div>
