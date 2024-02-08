@@ -1,19 +1,14 @@
 "use client"
 
 
-import React, { useEffect, useRef } from 'react'
-import {motion, useScroll, useTransform} from 'framer-motion'
+import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Link from 'next/link';
 
 
 const page = () => {
-  const reF = useRef()
-
-  const {scrollYProgress} = useScroll({target:reF})
-  const x = useTransform(scrollYProgress,[0,1],["0%","-100%"])
-
+ 
   useEffect(() => {
     AOS.init({
       duration: 700, 
