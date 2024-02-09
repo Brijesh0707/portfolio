@@ -70,7 +70,7 @@ const AboutCompo = () => {
           </main>
         </section>
         <section className='w-[95%] md:w-[100%] md:ml-2 ml-10 h-[100%] pb-[100px]'>
-        <h1 className='text-center text-[30px] text-[#2f2f2f] font-500 pt-5 pb-5'>Our Projects</h1>
+        <h1 className='text-center text-[30px] text-[#2f2f2f] font-500 pt-5 pb-5'>View Our Latest Projects</h1>
         <div className='w-[100%] mt-10'>
         <Swiper
         spaceBetween={30}
@@ -94,49 +94,50 @@ const AboutCompo = () => {
         modules={[Navigation, Mousewheel,Pagination, Keyboard,Autoplay]}
       >
       <SwiperSlide>
-        <div className='w-[300px] card_body rounded-md pb-[70px] cursor-pointer'>
-          <div className='image w-[300px] h-[250px] absolute z-10 object-contain'>
+        <div className='w-[350px] card_body rounded-md pb-[70px] cursor-pointer'>
+          <div className='image w-[350px] h-[250px] absolute z-10 object-contain'>
             <img src='/image1.jpg' className='w-[100%] h-[100%] rounded-md' />
           </div>
-          <div className='w-[300px] hover_div flex flex-col justify-center items-center rounded-md h-[250px] absolute z-20' style={{background:'rgba(0,0,0,0.6)'}}>
+          <div className='w-[350px] hover_div flex flex-col justify-center items-center rounded-md h-[250px] absolute z-20' style={{background:'rgba(0,0,0,0.6)'}}>
              <p className='text-white font-700 font-serif text-[30px] '>E Commerce</p>
           </div>
             
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className='w-[300px] card_body rounded-md pb-[70px] cursor-pointer'>
-          <div className='image w-[300px] h-[250px] absolute z-10 object-contain'>
+        <div className='w-[350px] card_body rounded-md pb-[70px] cursor-pointer'>
+          <div className='image w-[350px] h-[250px] absolute z-10 object-contain'>
             <img src='/image1.jpg' className='w-[100%] h-[100%] rounded-md' />
           </div>
-          <div className='w-[300px] hover_div flex flex-col justify-center items-center rounded-md h-[250px] absolute z-20' style={{background:'rgba(0,0,0,0.6)'}}>
+          <div className='w-[350px] hover_div flex flex-col justify-center items-center rounded-md h-[250px] absolute z-20' style={{background:'rgba(0,0,0,0.6)'}}>
              <p className='text-white font-700 font-serif text-[30px] '>E Commerce</p>
           </div>
             
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className='w-[300px] card_body rounded-md pb-[70px] cursor-pointer'>
-          <div className='image w-[300px] h-[250px] absolute z-10 object-contain'>
+        <div className='w-[350px] card_body rounded-md pb-[70px] cursor-pointer'>
+          <div className='image w-[350px] h-[250px] absolute z-10 object-contain'>
             <img src='/image1.jpg' className='w-[100%] h-[100%] rounded-md' />
           </div>
-          <div className='w-[300px] hover_div flex flex-col justify-center items-center rounded-md h-[250px] absolute z-20' style={{background:'rgba(0,0,0,0.6)'}}>
+          <div className='w-[350px] hover_div flex flex-col justify-center items-center rounded-md h-[250px] absolute z-20' style={{background:'rgba(0,0,0,0.6)'}}>
              <p className='text-white font-700 font-serif text-[30px] '>E Commerce</p>
           </div>
             
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className='w-[300px] card_body rounded-md pb-[70px] cursor-pointer'>
-          <div className='image w-[300px] h-[250px] absolute z-10 object-contain'>
+        <div className='w-[350px] card_body rounded-md pb-[70px] cursor-pointer'>
+          <div className='image w-[350px] h-[250px] absolute z-10 object-contain'>
             <img src='/image1.jpg' className='w-[100%] h-[100%] rounded-md' />
           </div>
-          <div className='w-[300px] hover_div flex flex-col justify-center items-center rounded-md h-[250px] absolute z-20' style={{background:'rgba(0,0,0,0.6)'}}>
+          <div className='w-[350px] hover_div flex flex-col justify-center items-center rounded-md h-[250px] absolute z-20' style={{background:'rgba(0,0,0,0.6)'}}>
              <p className='text-white font-700 font-serif text-[30px] '>E Commerce</p>
           </div>
             
         </div>
       </SwiperSlide>
+     
    
       
       </Swiper>
