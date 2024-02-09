@@ -8,6 +8,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Navigation, Pagination, Mousewheel, Keyboard,Autoplay } from "swiper/modules";
+import Link from 'next/link';
 const AboutCompo = () => {
     const [isVisible, setIsVisible] = useState(false);
   
@@ -69,12 +70,12 @@ const AboutCompo = () => {
             </div>
           </main>
         </section>
-        <section className='w-[95%] md:w-[100%] md:ml-2 ml-10 h-[100%] pb-[100px]'>
+        <section className='w-[95%] md:w-[95%] md:ml-2 ml-10 h-[100%] pb-[100px]'>
         <h1 className='text-center text-[30px] text-[#2f2f2f] font-500 pt-5 pb-5'>View Our Latest Projects</h1>
         <div className='w-[100%] mt-10'>
         <Swiper
         spaceBetween={30}
-        slidesPerView={typeof window !== 'undefined' && window.innerWidth <= 500 ? 1.25 : 3}
+        slidesPerView={typeof window !== 'undefined' && window.innerWidth <= 500 ? 1.13 : 3}
         navigation={false}
         pagination={false}
         mousewheel={{forceToAxis:true,thresholdDelta:30}}
@@ -94,48 +95,56 @@ const AboutCompo = () => {
         modules={[Navigation, Mousewheel,Pagination, Keyboard,Autoplay]}
       >
       <SwiperSlide>
-        <div className='w-[350px] card_body rounded-md pb-[70px] cursor-pointer'>
-          <div className='image w-[350px] h-[250px] absolute z-10 object-contain'>
-            <img src='/image1.jpg' className='w-[100%] h-[100%] rounded-md' />
+      <Link href="/projects">    
+        <div className='w-[350px] card_body rounded-md pb-[70px] cursor-pointer md:w-[300px]'>
+          <div className='image w-[350px] md:w-[300px] h-[250px] absolute z-10 object-cover'>
+            <img src='/project9.jpg' className='w-[100%] h-[100%] rounded-md object-cover ' />
           </div>
           <div className='w-[350px] hover_div flex flex-col justify-center items-center rounded-md h-[250px] absolute z-20' style={{background:'rgba(0,0,0,0.6)'}}>
-             <p className='text-white font-700 font-serif text-[30px] '>E Commerce</p>
+             <p className='text-white font-700 font-serif text-[30px] text-center'>E Commerce Android <br/>App</p>
           </div>
             
         </div>
+        </Link>
       </SwiperSlide>
       <SwiperSlide>
-        <div className='w-[350px] card_body rounded-md pb-[70px] cursor-pointer'>
-          <div className='image w-[350px] h-[250px] absolute z-10 object-contain'>
-            <img src='/image1.jpg' className='w-[100%] h-[100%] rounded-md' />
+      <Link href="/projects">  
+        <div className='w-[350px] card_body rounded-md pb-[70px] cursor-pointer md:w-[300px]'>
+          <div className='image w-[350px] md:w-[300px] h-[250px] absolute z-10 object-cover'>
+            <img src='/project10.jpg' className='w-[100%] h-[100%] rounded-md object-cover ' />
           </div>
           <div className='w-[350px] hover_div flex flex-col justify-center items-center rounded-md h-[250px] absolute z-20' style={{background:'rgba(0,0,0,0.6)'}}>
-             <p className='text-white font-700 font-serif text-[30px] '>E Commerce</p>
+             <p className='text-white font-700 font-serif text-[30px] '>Anime Android App</p>
           </div>
             
         </div>
+        </Link>
       </SwiperSlide>
       <SwiperSlide>
-        <div className='w-[350px] card_body rounded-md pb-[70px] cursor-pointer'>
-          <div className='image w-[350px] h-[250px] absolute z-10 object-contain'>
-            <img src='/image1.jpg' className='w-[100%] h-[100%] rounded-md' />
+      <Link href="/projects">  
+        <div className='w-[350px] card_body rounded-md pb-[70px] cursor-pointer md:w-[300px]'>
+          <div className='image w-[350px] md:w-[300px] h-[250px] absolute z-10 object-cover'>
+            <img src='/project11.png.jpg' className='w-[100%] h-[100%] rounded-md object-cover' />
           </div>
           <div className='w-[350px] hover_div flex flex-col justify-center items-center rounded-md h-[250px] absolute z-20' style={{background:'rgba(0,0,0,0.6)'}}>
-             <p className='text-white font-700 font-serif text-[30px] '>E Commerce</p>
+             <p className='text-white font-700 font-serif text-[30px] '>Weather Android App</p>
           </div>
             
         </div>
+        </Link>
       </SwiperSlide>
       <SwiperSlide>
-        <div className='w-[350px] card_body rounded-md pb-[70px] cursor-pointer'>
-          <div className='image w-[350px] h-[250px] absolute z-10 object-contain'>
-            <img src='/image1.jpg' className='w-[100%] h-[100%] rounded-md' />
+      <Link href="/projects">  
+        <div className='w-[350px] card_body rounded-md pb-[70px] cursor-pointer md:w-[300px]'>
+          <div className='image w-[350px] md:w-[300px] h-[250px] absolute z-10 object-contain'>
+            <img src='/project12.png' className='w-[100%] h-[100%] rounded-md' />
           </div>
           <div className='w-[350px] hover_div flex flex-col justify-center items-center rounded-md h-[250px] absolute z-20' style={{background:'rgba(0,0,0,0.6)'}}>
-             <p className='text-white font-700 font-serif text-[30px] '>E Commerce</p>
+             <p className='text-white font-700 font-serif text-[30px] '>Easy Hire Web</p>
           </div>
             
         </div>
+        </Link>
       </SwiperSlide>
      
    

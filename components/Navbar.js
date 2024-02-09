@@ -5,6 +5,12 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { motion } from "framer-motion";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+ 
+
+   
 
 
 export const Navbar = () => {
@@ -24,6 +30,16 @@ export const Navbar = () => {
         link:'/contactus'
     },]
     const pathname = usePathname()
+    useEffect(()=>{
+      const initial1 = ()=>{
+        AOS.init({
+          duration: 700, 
+          once: false, 
+        });
+      }
+  
+      initial1()
+    },[])
   return (
     <>
       <header className='pt-6 pl-10 pr-5 md:hidden'>
@@ -67,10 +83,10 @@ export const Navbar = () => {
       </div>
          {navbar &&<motion.div  initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ delay: 0.1, duration: 0.1}} exit={{ x: 100, opacity: 0 }}  className='w-screen h-screen fixed flex flex-col items-center justify-center   gap-4 top-0 left-0 right-0 bottom-0 bg-black z-66'>
+              transition={{ delay: 0.1, duration: 0.1}} exit={{ x: 100, opacity: 0 }}  className='w-screen h-screen fixed flex flex-col items-center justify-center   gap-4 top-0 left-0 right-0 bottom-0 bg-[#3498db] z-66'>
          {links.map((item,index)=>(
           <>
-            <Link href={item.link} key={index} className='text-white text-[25px]'>{item.title}</Link>
+            <Link href={item.link} data-aos='fade-right' key={index} className='text-white text-[25px]'>{item.title}</Link>
           </>
          ))
 

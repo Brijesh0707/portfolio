@@ -31,8 +31,8 @@ export default function ProjectCompo() {
 
      </main>
      <main className='w-[100%] h-[100%] pb-[100px]'>
-      <div className='flex justify-around pl-10 pr-10 md:pl-[13vw] md:pr-0 mt-5 mb-5 md:flex-col'>
-        <div className='w-[400px] h-[390px] border-[1px] border-black overflow-hidden rounded-md  md:mt-5 md:mb-5' data-aos='fade-right'>
+      <div className='flex justify-around pl-10 pr-10 md:pl-[8vw] md:pr-0 mt-5 mb-5 md:flex-col'>
+        <div className='w-[350px] h-[390px] border-[1px] border-black overflow-hidden rounded-md  md:mt-5 md:mb-5' data-aos='fade-right'>
           <div className='w-[100%] h-[300px]  object-contain '>
            <img src='/project1.png' className='w-[100%] h-[100%] rounded-md'/>
 
@@ -42,7 +42,7 @@ export default function ProjectCompo() {
           <a href='https://blog0002.netlify.app/'>  <button className='pl-4 pr-4 pt-1 pb-1 bg-black mt-2 text-white font-500 rounded-md '>Live Demo</button></a>
           </div>
         </div>
-        <div className='w-[400px] h-[390px] border-[1px] border-black overflow-hidden rounded-md ' data-aos='fade-left'>
+        <div className='w-[350px] h-[390px] border-[1px] border-black overflow-hidden rounded-md ' data-aos='fade-left'>
           <div className='w-[100%] h-[300px]  object-contain '>
            <img src='/project2.png' className='w-[100%] h-[100%] rounded-md'/>
 
@@ -53,8 +53,8 @@ export default function ProjectCompo() {
           </div>
         </div>
       </div>
-      <div className='flex justify-around pl-10 pr-10 md:pl-[13vw] md:pr-0 mt-5 mb-5 md:flex-col'>
-        <div className='w-[400px] h-[390px] border-[1px] border-black overflow-hidden rounded-md  md:mt-5 md:mb-5' data-aos='fade-right'>
+      <div className='flex justify-around pl-10 pr-10 md:pl-[8vw] md:pr-0 mt-5 mb-5 md:flex-col'>
+        <div className='w-[350px] h-[390px] border-[1px] border-black overflow-hidden rounded-md  md:mt-5 md:mb-5' data-aos='fade-right'>
           <div className='w-[100%] h-[300px]  object-contain '>
            <img src='/project3.png' className='w-[100%] h-[100%] rounded-md'/>
 
@@ -64,7 +64,7 @@ export default function ProjectCompo() {
            <a href='https://classmate0101.vercel.app/'> <button className='pl-4 pr-4 pt-1 pb-1 bg-black mt-2 text-white font-500 rounded-md '>Live Demo</button></a>
           </div>
         </div>
-        <div className='w-[400px] h-[390px] border-[1px] border-black overflow-hidden rounded-md ' data-aos='fade-left'>
+        <div className='w-[350px] h-[390px] border-[1px] border-black overflow-hidden rounded-md ' data-aos='fade-left'>
           <div className='w-[100%] h-[300px]  object-contain '>
            <img src='/project4.png' className='w-[100%] h-[100%] rounded-md'/>
 
@@ -75,8 +75,8 @@ export default function ProjectCompo() {
           </div>
         </div>
       </div>
-      <div className='flex justify-around pl-10 pr-10 md:pl-[13vw] md:pr-0 mt-5 mb-5 md:flex-col'>
-        <div className='w-[400px] h-[390px] border-[1px] border-black overflow-hidden rounded-md  md:mt-5 md:mb-5' data-aos='fade-right'>
+      <div className='flex justify-around pl-10 pr-10 md:pl-[8vw] md:pr-0 mt-5 mb-5 md:flex-col'>
+        <div className='w-[350px] h-[390px] border-[1px] border-black overflow-hidden rounded-md  md:mt-5 md:mb-5' data-aos='fade-right'>
           <div className='w-[100%] h-[300px]  object-contain '>
            <img src='/project5.png' className='w-[100%] h-[100%] rounded-md'/>
 
@@ -86,7 +86,7 @@ export default function ProjectCompo() {
           <a href='https://challenge-five-delta.vercel.app/'>  <button className='pl-4 pr-4 pt-1 pb-1 bg-black mt-2 text-white font-500 rounded-md '>Live Demo</button></a>
           </div>
         </div>
-        <div className='w-[400px] h-[390px] border-[1px] border-black overflow-hidden rounded-md ' data-aos='fade-left'>
+        <div className='w-[350px] h-[390px] border-[1px] border-black overflow-hidden rounded-md ' data-aos='fade-left'>
           <div className='w-[100%] h-[300px]  object-contain '>
            <img src='/project6.png' className='w-[100%] h-[100%] rounded-md'/>
 
@@ -97,8 +97,8 @@ export default function ProjectCompo() {
           </div>
         </div>
       </div>
-      <div className='flex justify-around pl-10 pr-10 md:pl-[13vw] md:pr-0 mt-5 mb-5 md:flex-col'>
-        <div className='w-[400px] h-[390px] border-[1px] border-black overflow-hidden rounded-md  md:mt-5 md:mb-5' data-aos='fade-right'>
+      <div className='flex justify-around pl-10 pr-10 md:pl-[8vw] md:pr-0 mt-5 mb-5 md:flex-col'>
+        <div className='w-[350px] h-[390px] border-[1px] border-black overflow-hidden rounded-md  md:mt-5 md:mb-5' data-aos='fade-right'>
           <div className='w-[100%] h-[300px]  object-contain '>
            <img src='/project7.png' className='w-[100%] h-[100%] rounded-md'/>
 
@@ -108,7 +108,7 @@ export default function ProjectCompo() {
           <a href='https://emoneybeta1.netlify.app/'>  <button className='pl-4 pr-4 pt-1 pb-1 bg-black mt-2 text-white font-500 rounded-md '>Live Demo</button></a>
           </div>
         </div>
-        <div className='w-[400px] h-[390px] border-[1px] border-black overflow-hidden rounded-md ' data-aos='fade-left'>
+        <div className='w-[350px] h-[390px] border-[1px] border-black overflow-hidden rounded-md ' data-aos='fade-left'>
           <div className='w-[100%] h-[300px]  object-contain '>
            <img src='/project8.png' className='w-[100%] h-[100%] rounded-md'/>
 
@@ -119,47 +119,47 @@ export default function ProjectCompo() {
           </div>
         </div>
       </div>
-      <div className='flex justify-around pl-10 pr-10 md:pl-[13vw] md:pr-0 mt-5 mb-5 md:flex-col'>
-        <div className='w-[400px] h-[390px] border-[1px] border-black overflow-hidden rounded-md  md:mt-5 md:mb-5' data-aos='fade-right'>
+      <div className='flex justify-around pl-10 pr-10 md:pl-[8vw] md:pr-0 mt-5 mb-5 md:flex-col'>
+        <div className='w-[350px] h-[390px] border-[1px] border-black overflow-hidden rounded-md  md:mt-5 md:mb-5' data-aos='fade-right'>
           <div className='w-[100%] h-[300px]  object-contain '>
-           <img src='/project1.png' className='w-[100%] h-[100%] rounded-md'/>
+           <img src='/project9.jpg' className='w-[100%] h-[100%] rounded-md'/>
 
           </div>
           <div className='flex justify-center items-center flex-col pt-2'>
-          <p className='text-[#2f2f2f] text-[20px] font-600'>Project_Name</p>
-            <button className='pl-4 pr-4 pt-1 pb-1 bg-black mt-2 text-white font-500 rounded-md '>Live Demo</button>
+          <p className='text-[#2f2f2f] text-[20px] font-600'>Ecommerce Android App</p>
+          <a href='https://github.com/solo243/E-commerce_App'>  <button className='pl-4 pr-4 pt-1 pb-1 bg-black mt-2 text-white font-500 rounded-md '>Live Demo</button></a>
           </div>
         </div>
-        <div className='w-[400px] h-[390px] border-[1px] border-black overflow-hidden rounded-md ' data-aos='fade-left'>
+        <div className='w-[350px] h-[390px] border-[1px] border-black overflow-hidden rounded-md ' data-aos='fade-left'>
           <div className='w-[100%] h-[300px]  object-contain '>
-           <img src='/project1.png' className='w-[100%] h-[100%] rounded-md'/>
+           <img src='/project10.jpg' className='w-[100%] h-[100%] rounded-md'/>
 
           </div>
           <div className='flex justify-center items-center flex-col pt-2'>
-          <p className='text-[#2f2f2f] text-[20px] font-600'>Project_Name</p>
-            <button className='pl-4 pr-4 pt-1 pb-1 bg-black mt-2 text-white font-500 rounded-md '>Live Demo</button>
+          <p className='text-[#2f2f2f] text-[20px] font-600'>Anime Android App</p>
+          <a href='https://houseofhopes.itch.io/amniflix'>  <button className='pl-4 pr-4 pt-1 pb-1 bg-black mt-2 text-white font-500 rounded-md '>Live Demo</button></a>
           </div>
         </div>
       </div>
-      <div className='flex justify-around pl-10 pr-10 md:pl-[13vw] md:pr-0 mt-5 mb-5 md:flex-col'>
-        <div className='w-[400px] h-[390px] border-[1px] border-black overflow-hidden rounded-md  md:mt-5 md:mb-5' data-aos='fade-right'>
+      <div className='flex justify-around pl-10 pr-10 md:pl-[8vw] md:pr-0 mt-5 mb-5 md:flex-col'>
+        <div className='w-[350px] h-[390px] border-[1px] border-black overflow-hidden rounded-md  md:mt-5 md:mb-5' data-aos='fade-right'>
           <div className='w-[100%] h-[300px]  object-contain '>
-           <img src='/project1.png' className='w-[100%] h-[100%] rounded-md'/>
+           <img src='/project11.png.jpg' className='w-[100%] h-[100%] rounded-md'/>
 
           </div>
           <div className='flex justify-center items-center flex-col pt-2'>
-          <p className='text-[#2f2f2f] text-[20px] font-600'>Project_Name</p>
-            <button className='pl-4 pr-4 pt-1 pb-1 bg-black mt-2 text-white font-500 rounded-md '>Live Demo</button>
+          <p className='text-[#2f2f2f] text-[20px] font-600'>Weather Android App</p>
+           <a href='https://houseofhopes.itch.io/vatavranwizard'> <button className='pl-4 pr-4 pt-1 pb-1 bg-black mt-2 text-white font-500 rounded-md '>Live Demo</button></a>
           </div>
         </div>
-        <div className='w-[400px] h-[390px] border-[1px] border-black overflow-hidden rounded-md ' data-aos='fade-left'>
+        <div className='w-[350px] h-[390px] border-[1px] border-black overflow-hidden rounded-md ' data-aos='fade-left'>
           <div className='w-[100%] h-[300px]  object-contain '>
-           <img src='/project1.png' className='w-[100%] h-[100%] rounded-md'/>
+           <img src='/project12.png' className='w-[100%] h-[100%] rounded-md'/>
 
           </div>
           <div className='flex justify-center items-center flex-col pt-2'>
-          <p className='text-[#2f2f2f] text-[20px] font-600'>Project_Name</p>
-            <button className='pl-4 pr-4 pt-1 pb-1 bg-black mt-2 text-white font-500 rounded-md '>Live Demo</button>
+          <p className='text-[#2f2f2f] text-[20px] font-600'>Easy Hire</p>
+          <a href='https://solutions001.netlify.app/' >  <button className='pl-4 pr-4 pt-1 pb-1 bg-black mt-2 text-white font-500 rounded-md '>Live Demo</button></a>
           </div>
         </div>
       </div>
