@@ -21,7 +21,7 @@ export default function ProjectCompo() {
       },[])
   return (
     <>
-          <section className='w-[100%] h-[100%]' >
+          <section className='w-[100%] h-[100%] overflow-hidden' >
      <main className='w-[100%] h-screen flex justify-center items-center'>
       <div className='flex justify-center flex-col items-center'>
       <h1 className='text-[#2f2f2f] text-[100px] md:text-[50px]'>Our Projects</h1>
@@ -31,7 +31,7 @@ export default function ProjectCompo() {
 
      </main>
      <main className='w-[100%] h-[100%] pb-[100px]'>
-      <div className='flex justify-around pl-10 pr-10 md:pl-[8vw] md:pr-0 mt-5 mb-5 md:flex-col'>
+      <div className='flex justify-around pl-10 pr-10  md:pl-[8vw] md:pr-0 mt-5 mb-5 md:flex-col'>
         <div className='w-[350px] h-[390px] border-[1px] border-black overflow-hidden rounded-md  md:mt-5 md:mb-5' data-aos='fade-right'>
           <div className='w-[100%] h-[300px]  object-contain '>
            <img src='/project1.png' className='w-[100%] h-[100%] rounded-md'/>
