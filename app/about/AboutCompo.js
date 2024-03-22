@@ -98,10 +98,10 @@ const AboutCompo = () => {
       <Link href="/projects">    
         <div className='w-[350px] card_body rounded-md pb-[70px] cursor-pointer md:w-[300px]'>
           <div className='image w-[350px] md:w-[300px] h-[250px] absolute z-10 object-cover'>
-            <img src='/project9.jpg' className='w-[100%] h-[100%] rounded-md object-cover ' />
+            <img src='/ajtechsolution.png' className='w-[100%] h-[100%] rounded-md object-cover ' />
           </div>
           <div className='w-[350px] hover_div flex flex-col justify-center items-center rounded-md h-[250px] absolute z-20' style={{background:'rgba(0,0,0,0.6)'}}>
-             <p className='text-white font-700 font-serif text-[30px] text-center'>E Commerce Android <br/>App</p>
+             <p className='text-white font-700 font-serif text-[30px] text-center'>Agency Website</p>
           </div>
             
         </div>

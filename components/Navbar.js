@@ -47,7 +47,7 @@ export const Navbar = () => {
             <div className='left_side'>
               <Link href="/" >
             
-    <img src="/bg_tech_logo.png" className='w-[120px] h-[55px] rounded-lg ' />
+    <img src="/tech_tonic_logo2.png" className='w-[120px] h-[120px] rounded-lg ' />
 
               </Link>
             </div>
