@@ -38,7 +38,7 @@ export default function ProjectCompo() {
 
           </div>
           <div className='flex justify-center items-center flex-col pt-2'>
-          <p className='text-[#2f2f2f] text-[20px] font-600'>Blogging Web</p>
+          <p className='text-[#2f2f2f] text-[20px] font-600'>Agency Website</p>
           <a href='https://www.aj-techsolution.com/'>  <button className='pl-4 pr-4 pt-1 pb-1 bg-black mt-2 text-white font-500 rounded-md '>Live Demo</button></a>
           </div>
         </div>
